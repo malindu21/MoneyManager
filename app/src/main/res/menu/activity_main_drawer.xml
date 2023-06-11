@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_menu_dashboard"
+            android:title="@string/menu_dashboard" />
+        <item
+            android:id="@+id/nav_accounts"
+            android:icon="@drawable/ic_menu_accounts"
+            android:title="@string/menu_accounts" />
+        <item
+            android:id="@+id/nav_transactions"
+            android:icon="@drawable/ic_menu_transactions"
+            android:title="@string/menu_transactions" />
+        <item
+            android:id="@+id/nav_recurring_transactions"
+            android:icon="@drawable/ic_menu_recurring_transactions"
+            android:title="@string/menu_recurring_transactions" />
+        <item
+            android:id="@+id/nav_categories"
+            android:icon="@drawable/ic_menu_categories"
+            android:title="@string/menu_categories" />
+        <item
+            android:id="@+id/nav_monthly_summary"
+            android:icon="@drawable/ic_menu_monthly_summary"
+            android:title="@string/menu_monthly_summary" />
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/nav_settings"
+            android:icon="@drawable/ic_menu_settings"
+            android:title="@string/menu_settings" />
+    </group>
+
+</menu>
